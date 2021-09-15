@@ -1,0 +1,60 @@
+body{
+    color:darkgreen;
+    font-family:Arial, 'Times New Roman', serif;
+    width:90%;
+    background-image: url(notebook.jpg);
+}
+p{
+    line-height: 1.5em;
+    font-size: 18px;
+}
+header{
+    color:saddlebrown;
+    text-align: center;
+    background-color: goldenrod;
+    font-size: 30px;
+    border: 5px dotted black;
+    margin:20px 60px 10px 40px;
+}
+main{
+    font-size: 30px;
+    border: 5px dotted black;
+    margin: 10px 60px 10px 40px;
+    padding: 20px 30px;
+}
+
+footer{
+    border: 5px dotted black;
+    margin: 10px 60px 10px 40px;
+    padding: 20px 30px;
+}
+h2{
+    font-style: italic;
+    font-size: 20px;
+}
+#copyright{
+    background-color:khaki;
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+}
+.lijst-naast-elkaar li{
+    display:inline;
+    width: 40px;
+}
+
+@media (min-width:1024px) {
+    body{
+       color:darkslateblue;
+        background-image: none;  
+        background-color: lightgrey;
+    }
+    header{
+    font-size: 50px;
+    }
+    p{
+        line-height: 2em;
+        font-size: 12px;
+    
+    }
+    }

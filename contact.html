@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Taalfoutloos</h1>
+    </header>
+
+    <main>
+
+        <form name="contact" action="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="name" name="naam"></label>
+            </p>
+            <p>
+                <label>E-mailadres: <input type="email" name="email"></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="tel"></label>
+            </p>
+            <p>
+                <label>Leeftijd: <input type="age" name="leeftijd"></label>
+            </p>
+            <p>
+                <label>Geboortedatum: <input type="date" name="geboortedatum"></label>
+            </p>
+            <p>
+                Geslacht: 
+                    <label>Man<input type="radio" name="geslacht"></label>
+                    <label>Vrouw<input type="radio" name="geslacht"></label>
+            </p>
+            <p>
+                Favoriete Cuisine: <br>
+                    <label>Frans<input type="checkbox" name="cuisine"></label><br>
+                                    <label>Italiaans<input type="checkbox" name="cuisine"></label><br>
+                                    <label>Spaans<input type="checkbox" name="cuisine"></label><br>
+                                    <label>Arabisch<input type="checkbox" name="cuisine"></label>
+
+                                    
+            </p>
+            <p>
+                Favoriete kleur schort: <input type="color" name="schort">
+            </p>
+            <p>
+                <label>Biografie:<textarea name="biografie"></textarea></label>
+            </p>
+<p>
+    Upload je laatste recept: <input type="file" name="recept">
+</p>
+<p>
+    URL naar jouw receptenwebsite: <input type="url" name="url">
+</p>
+
+            <p>
+                <button type="reset">Leegmaken</button>
+            </p>
+            <p>
+                <button type="submit">Versturen</button>
+            </p>
+        </form><br>
+        <a href="Index.html">
+            <h3>Terug</h3>
+        </a>
+    </main>
+    <footer>
+        <p id="copyright">Copyright Taalfoutloos 2021</p>
+    </footer>
+</body>
+
+</html>
